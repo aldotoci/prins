@@ -5,6 +5,7 @@
     margin-right: auto;
     overflow: auto;
     padding-bottom: 15px;
+    justify-content: center;
 }
 .type-of-g .container{
     height: 400px;
