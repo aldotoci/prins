@@ -69,9 +69,12 @@
     <link rel='stylesheet' id='inspiro-style-css' href='./style/style.min.css' media='all'/>
     <script src='./js/jquery.min.js' id='jquery-core-js'></script>
     <script src='./js/jquery-migrate.min.js' id='jquery-migrate-js'></script>
-
     <link rel="stylesheet" href="./style/index.css"/>
-    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./style/systems.css"/>
+    <link rel="stylesheet" href="./style/fuels.css">
+
+
+<!--    <script src="./js/index.js"></script>-->
 </head>
 
 <body class="home page-template-default page page-id-12 wp-embed-responsive inspiro-front-page has-header-image inspiro--with-page-nav page-layout-full-width post-display-content-excerpt full-height-iframe-video colors-light">
@@ -216,15 +219,17 @@
             </div>
             <nav class="mobile-menu-wrapper" aria-label="Mobile Menu" role="navigation">
                 <ul id="menu-main-menu" class="nav navbar-nav">
-                    <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
+                    <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21">
                         <a href="http://localhost/" aria-current="page">Home</a>
                     </li>
-                    <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
+                    <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-21">
                         <a href="http://localhost/" aria-current="page">Systems</a>
                     </li>
                     <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
                         <a href="http://localhost/" aria-current="page">Fuels</a>
                     </li>
+                    <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23">
+                        <a href="./about.php">Blog</a></li>
                     <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24">
                         <a href="#contact">Contact</a></li>
                 </ul>
@@ -300,10 +305,10 @@
                     <nav class="primary-menu-wrapper navbar-collapse collapse" aria-label="Top Horizontal Menu"
                          role="navigation">
                         <ul id="menu-main-menu-1" class="nav navbar-nav dropdown sf-menu">
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-21">
                                 <a href="./" aria-current="page">Home</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21">
-                                <a href="./systems.php  " aria-current="page">Systems</a>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-21">
+                                <a href="./systems.php" aria-current="page">Systems</a>
                                 <ul id="dropdown-menu">
                                     <li><a href="#">VSI-3 DI</a></li>
                                     <li><a href="#">VSI-DI</a></li>
@@ -311,11 +316,11 @@
                                     <li><a href="#">DIESEL BLEND</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21">
-                                <a href="./fuels.php  " aria-current="page">Fuels</a>
+                            <li class="menu-item menu-item-type-custom current-menu-item current_page_item_item menu-item-object-custom_item menu-item-home menu-item-21">
+                                <a href="./fuels.php" aria-current="page">Fuels</a>
                                 <ul id="dropdown-menu">
-                                    <li><a href="./fuels.php#LPG">LPG</a></li>
-                                    <li><a href="./fuels.php#CNG">CNG</a></li>
+                                    <li><a href="#LPG">LPG</a></li>
+                                    <li><a href="#CNG">CNG</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a
@@ -372,14 +377,16 @@
 
                 <div class="site-branding-text">
 
-
-                    <h1 class="site-title"><a href="" target="_blank">AUTO SERVICE GESTI</a></h1>
+                    <h1 class="site-title"><a href="" target="_blank">Systems</a></h1>
 
                 </div><!-- .site-branding-text -->
 
                 <div class="custom-header-button-wrapper">
-                    <a class="custom-header-button button" href="" target="_blank" rel="nofollow"
-                       style="display: none;">
+                    <a class="custom-header-button button" href="#LPG" rel="nofollow" style="">
+                        LPG
+                    </a>
+                    <a class="custom-header-button button" href="#CNG" rel="nofollow" style="">
+                        CNG
                     </a>
                 </div><!-- .custom-header-button -->
 
@@ -410,278 +417,102 @@
 
     <div class="site-content-contain">
         <div class="site-content">
-
-
             <main id="main" class="site-main" role="main">
-
-
-                <article id="post-12" class="post-12 page type-page status-publish has-post-thumbnail hentry">
-
-
+                <article id="LPG" class="post-12 page type-page status-publish has-post-thumbnail hentry">
                     <header class="entry-header">
-
-                        <div class="inner-wrap"><h1 class="entry-title">Driving On Gas</h1></div><!-- .inner-wrap -->
+                        <div class="inner-wrap"><h1 class="entry-title">LPG</h1></div><!-- .inner-wrap -->
                     </header><!-- .entry-header -->
-
-
                     <div class="entry-content">
+                        <h3>What is LPG?</h3>
+                        <div class="content-container">
+                            <p>
+                                LPG (Liquefied Petroleum Gas), which is sometimes also called autogas in the car industry, comprises hydrocarbon compounds like petrol and diesel. The main components of LPG are propane and butane. Large quantities of petroleum gases are released when extracting oil and natural gas, and refining crude oil. Compressing these petroleum gases convert them to a liquid state, and creates LPG.
 
-                        <p class="has-text-align-center">
-                            <meta charset="utf-8">
-                            The systems we develop and supply for these cleaner, more economical alternative fuels are
-                            suitable for both older and new (direct injection) engines and hybrids.&nbsp;Driving on gas
-                            (LPG, CNG or LNG) with one of our systems offers many advantages such as&nbsp;fuel cost
-                            savings and reducing exhaust emissions such as CO2, particles and NOx.
-                        </p>
-
-                        <!--                            http://localhost/wp-content/uploads/2023/05/CNG.jpg-->
-                        <!--                            http://localhost/wp-content/uploads/2023/05/LPG-1.jpg-->
-                        <!--                            http://localhost/wp-content/uploads/2023/05/LNG.jpg-->
-                        <!--                            -->
-                        <div class="type-of-g">
-                            <div onClick="window.location.replace('./fuels/LPG.php')" class="wrapper LPG">
-                                    <div class="container">
-                                        <h2>LPG</h2>
-                                        <div property="schema:text"
-                                            class="field--label-hidden">
-                                            LPG is a cleaner fuel compared to petrol and diesel. So using LPG as a vehicle
-                                            fuel helps to improve the air quality.
-                                        </div>
-                                    </div>
-                            </div>
-                            <div class="wrapper CNG">
-                                <div class="container ">
-                                    <h2>CNG</h2>
-                                    <div property="schema:text"
-                                         class="field--label-hidden">
-                                        CNG is one of the cleanest fuels; when burned, it emits fewer harmful gases and
-                                        less fine particulate matter compared to petrol. CO2 emissions are reduced by up
-                                        to 20%.
-                                    </div>
-                                </div>
-                            </div>
-<!--                            <div class="wrapper LNG">-->
-<!--                                <div class="container ">-->
-<!--                                    <h2>LNG</h2>-->
-<!--                                    <div property="schema:text"-->
-<!--                                         class="field&#45;&#45;label-hidden">-->
-<!--                                        LNG stands for ‘Liquefied Natural Gas’.&nbsp;LNG is used as a fuel for road-->
-<!--                                        transport and in marine and industrial applications.-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
+                                LPG is a cleaner fuel compared to petrol and diesel. So using LPG as a vehicle fuel helps to improve the air quality.
+                            </p>
+                            <img src="./images/LPG_image1.jpg" />
                         </div>
-
-                        <div style="height:55px" aria-hidden="true" class="wp-block-spacer"></div>
-
-                        <div class="wp-block-group alignfull has-background is-layout-flow"
-                             style="background-color:#e5e9ec">
-                            <div class="wp-block-group__inner-container">
-                                <div class="wp-block-columns is-layout-flex wp-container-7">
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
-                                        <h2 class="wp-block-heading">About us</h2>
-                                        <p>This is some dummy copy. You’re not really supposed to read this dummy copy,
-                                            it is just a placeholder for people who need some type to visualize what the
-                                            actual copy might look like if it were real content.</p>
-                                        <div class="wp-block-buttons is-horizontal is-content-justification-left is-layout-flex wp-container-4">
-                                            <div class="wp-block-button is-style-outline"><a
-                                                    class="wp-block-button__link wp-element-button" href="./about.php">About
-                                                Us</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="wp-block-column is-layout-flow">
-                                        <div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
-                                        <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                       src="./images/StockSnap_JKMGVEJMPU.jpg"
-                                                                                       alt="" class="wp-image-26"/>
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wp-block-group alignfull is-layout-flow">
-                            <div class="wp-block-group__inner-container">
-                                <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-12">
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
-                                        <div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
-                                        <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                       src="./images/findYourModel.jpg"
-                                                                                       alt="" class="wp-image-27"/>
-                                        </figure>
-                                    </div>
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
-                                        <h2 class="wp-block-heading">We'll find the right fuel system for you</h2>
-                                        <p>We'll help you find the right fuel system for your vehicle, provide a quote
-                                            to install and get you on the road to saving money on fuel in no time.</p>
-                                        <div class="wp-block-buttons is-layout-flex">
-                                            <div class="wp-block-button is-style-outline"><a
-                                                    class="wp-block-button__link wp-element-button"
-                                                    target="_blank"
-                                                    href="https://www.prinsautogas.com/en/vehicle-database#wdt-find-system-field-make">Check your
-                                                vehicle</a></div>
-                                        </div>
-                                        <p>
-                                            <small>
-                                                Please contact us if your vehicle is not listed or if you are interested
-                                                in an LNG system.
-                                            </small>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="wp-block-group alignfull has-background is-layout-flow"
-                             style="background-color:#e5e9ec">
-                            <div class="wp-block-group__inner-container">
-                                <div class="wp-block-columns is-layout-flex wp-container-7">
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
-                                        <h2 class="wp-block-heading">Where can you find us?</h2>
-
-
-                                        <p>This is some dummy copy. You’re not really supposed to read this dummy copy,
-                                            it is just a placeholder for people who need some type to visualize what the
-                                            actual copy might look like if it were real content.</p>
-
-
-                                        <div class="wp-block-buttons is-horizontal is-content-justification-left is-layout-flex wp-container-4">
-                                            <div class="wp-block-button is-style-outline"><a
-                                                    class="wp-block-button__link wp-element-button" target="_blank"
-                                                    href="https://goo.gl/maps/5dNpVL4FFKFY3sbU7?coh=178571&entry=tt">Open
-                                                Map</a></div>
-                                        </div>
-
-
-                                        <p></p>
-                                    </div>
-
-
-                                    <div class="wp-block-column is-layout-flow">
-                                        <div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-                                        <figure class="wp-block-image size-large">
-                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11169.861576331317!2d19.673536431012437!3d40.959776076652034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135005e88179f7a7%3A0x2ebd649bd84a7034!2sPrins%20AutogasSystems%20Albania!5e0!3m2!1sen!2s!4v1685117606298!5m2!1sen!2s"
-                                                    width="600" height="450" style="border:0;" allowfullscreen=""
-                                                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="wp-block-group alignfull is-layout-flow">
-                            <div class="wp-block-group__inner-container">
-                                <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-12">
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
-                                        <div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-                                        <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                       src="./images/StockSnap_M6D1GS9PSL.jpg"
-                                                                                       alt="" class="wp-image-27"/>
-                                        </figure>
-                                    </div>
-
-
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
-                                        <h2 class="wp-block-heading">Our Services</h2>
-
-
-                                        <p>This is some dummy copy. You’re not really supposed to read this dummy copy,
-                                            it is just a placeholder for people who need some type to visualize what the
-                                            actual copy might look like if it were real content.</p>
-
-
-                                        <div class="wp-block-buttons is-layout-flex">
-                                            <div class="wp-block-button is-style-outline"><a
-                                                    class="wp-block-button__link wp-element-button"
-                                                    href="#">Services</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="wp-block-group alignfull has-black-background-color has-background is-layout-flow">
-                            <div class="wp-block-group__inner-container">
-                                <h2 class="wp-block-heading has-text-align-center has-white-color has-text-color">
-                                    <strong>Gallery</strong></h2>
-
-
-                                <figure class="wp-block-gallery aligncenter has-nested-images columns-default is-cropped wp-block-gallery-14 is-layout-flex">
-                                    <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                   src="./images/StockSnap_P9QYJ8AAL8.jpg"
-                                                                                   alt="" class="wp-image-28"/></figure>
-
-
-                                    <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                   src="./images/StockSnap_M6D1GS9PSL.jpg"
-                                                                                   alt="" class="wp-image-27"/></figure>
-
-
-                                    <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                   src="./images/Royalty-Free-Forest-Road-Aerial-Stock-Video-Footage-1.webm"
-                                                                                   alt="" class="wp-image-26"/></figure>
-
-
-                                    <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                   src="./images/StockSnap_CXVCF2NNWJ.jpg"
-                                                                                   alt="" class="wp-image-25"/></figure>
-
-
-                                    <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                   src="./images/StockSnap_89BQZ89TLH.jpg"
-                                                                                   alt="" class="wp-image-24"/></figure>
-
-
-                                    <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                   src="./images/StockSnap_PGXCCTCLB5.jpg"
-                                                                                   alt="" class="wp-image-29"/></figure>
-                                </figure>
-                            </div>
-                        </div>
-
-
-                        <div class="wp-block-cover alignfull has-parallax is-position-center-center"
-                             style="min-height:375px"><span aria-hidden="true"
-                                                            class="wp-block-cover__background has-black-background-color has-background-dim-40 has-background-dim"></span>
-                            <div role="img" class="wp-block-cover__image-background wp-image-24 has-parallax"
-                                 style="background-position:50% 50%;background-image:url(./images/StockSnap_89BQZ89TLH.jpg)"></div>
-                            <div class="wp-block-cover__inner-container">
-                                <p class="has-text-align-center has-text-color has-huge-font-size"
-                                   style="color:#fffffa;line-height:1.1"><strong>Unleash the power of Natural Gas, an
-                                    eco-friendly and cost-effective fuel, for your car's efficient performance and
-                                    reduced carbon footprint.</strong></p>
-
-
-                                <p class="has-text-align-center"></p>
-
-
-                                <div style="height:39px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-                                <div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-container-17">
-                                    <div class="wp-block-button is-style-outline"><a
-                                            class="wp-block-button__link has-white-color has-text-color wp-element-button"
-                                            href="#contact">Contact us</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-18 is-layout-flex"></figure>
                     </div><!-- .entry-content -->
                 </article><!-- #post-12 -->
+                <article id="post-12" class="post-12 page type-page status-publish has-post-thumbnail color-background hentry">
+                    <header class="entry-header">
+                        <div class="inner-wrap"><h1 class="entry-title">Driving on LPG!</h1></div><!-- .inner-wrap -->
+                    </header><!-- .entry-header -->
+                    <div class="entry-content">
+                        <div class="content-container disatvanteages">
+                            <div>
+                                <h4>More environmentally friendly and cheaper!</h4>
+                                <p>
 
+                                    One litre of LPG is approximately one euro cheaper than a litre of petrol! It is also a greener fuel; when running on LPG, your car emits up to 21% less CO2 and up to 95% less fine particulate matter compared to petrol. Engines running on LPG also produce much lower NOx emissions compared to engines running on diesel. Bio-LPG, which is an even cleaner variant, will also be available soon.
+                                    We also offer CNG and LNG solutions.
+                                </p>
+                            </div>
+                            <div class="">
+                                <h3>The advantages of driving on LPG</h3>
+                                <ul>
+                                    <li>Saving on fuel costs</li>
+                                    <li>More environmentally friendly mobility</li>
+                                    <li>Easy tank filling procedure</li>
+                                    <li>No power loss</li>
+                                    <li>Additional driving range</li>
+                                    <li>Ideal for petrol cars that are already on the road!</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!-- .entry-content -->
+                </article><!-- #post-12 -->
+                <article id="CNG" class="post-12 page type-page status-publish has-post-thumbnail hentry">
+                    <header class="entry-header">
+                        <div class="inner-wrap"><h1 class="entry-title">NPG</h1></div><!-- .inner-wrap -->
+                    </header><!-- .entry-header -->
+                    <div class="entry-content">
+                        <h3>Driving on CNG</h3>
+                        <div class="content-container">
+                            <div class="info-container">
+                                <p>
+                                    CNG is one of the cleanest fuels; when burned, it emits fewer harmful gases and less fine particulate matter compared to petrol. CO2 emissions are reduced by up to 20%. In the case of a diesel vehicle, this reduction can be as much as 75%. In addition, when running on CNG, your vehicle emits up to 30% less NOx in comparison to diesel.
+                                </p>
+                                <p>
+                                    Green gas, the sustainable variant of natural gas, is produced by upgrading bio gas to natural gas quality. Green gas is produced by fermenting plant waste, pruning waste, sewage sludge and manure.
+                                </p>
+                                <p>
+                                    A further advantage of CNG is the price difference compared to petrol and diesel; CNG is a lot cheaper. So you save on your fuel costs. These savings vary per vehicle and driver.
+                                </p>
+                            </div>
+                            <img src="./images/CNG_image1.jpg" />
+                        </div>
+                    </div><!-- .entry-content -->
+                </article><!-- #post-12 -->
+                <article id="post-12" class="post-12 page type-page status-publish has-post-thumbnail color-background hentry">
+                    <header class="entry-header">
+                        <div class="inner-wrap"><h1 class="entry-title">Driving on NPG!</h1></div><!-- .inner-wrap -->
+                    </header><!-- .entry-header -->
+                    <div class="entry-content">
+                        <div class="content-container disatvanteages">
+                            <div>
+                                <h4>Considering a CNG conversion for your vehicle?</h4>
+                                <p>
+                                    Running your vehicle on CNG contributes to a cleaner living environment!
+                                </p>
+                            </div>
+                            <div class="">
+                                <h3>The advantages of CNG as a fuel:</h3>
+                                <ul>
+                                    <li>More environmentally friendly operation than diesel or petrol</li>
+                                    <li>Fuel cost savings</li>
+                                    <li>A greater driving range</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!-- .entry-content -->
+                </article><!-- #post-12 -->
             </main><!-- #main -->
-
         </div><!-- #content -->
         <footer id="content" class="site-footer" role="contentinfo">
-            <div class="inner-wrap">
+            <div id="about-section" class="inner-wrap">
                 <aside class="footer-widgets widgets widget-columns-3" role="complementary" aria-label="Footer">
+
                     <div class="widget-column footer-widget-1">
                         <section id="text-8" class="widget widget_text"><h2 class="title">Find Us</h2>
                             <div class="social-media-logos">
@@ -708,7 +539,7 @@
                         </section>
                     </div>
                     <div class="widget-column footer-widget-2">
-                        <section id="about-section" class="widget widget_text"><h2 class="title">About This Site</h2>
+                        <section id="text-9" class="widget widget_text"><h2 class="title">About This Site</h2>
                             <div class="textwidget"><p>This may be a good place to introduce yourself and your site or
                                 include some credits.</p>
                             </div>

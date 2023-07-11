@@ -46,14 +46,14 @@
     min-width: 200px;
 }
 .type-of-g .LNG{
-    background-image:url(./images/LNG.jpg);
+    background-image:url(../images/LNG.jpg);
 }
 .type-of-g .CNG{
-    background-image:url(./images/CNG.jpg);
+    background-image:url(../images/CNG.jpg);
 }
 .type-of-g .LPG{
-     background-image:url(./images/LPG.jpg);
- }
+     background-image:url(../images/LPG.jpg);
+}
 
 .social-media-logos{
      display: flex;
@@ -65,4 +65,17 @@
 }
 .social-media-logos a img:hover{
     width: 50px;
+}
+
+#dropdown-menu{
+    margin-top: 5px;
+    width: 150px;
+    border-top-color: #007500;
+}
+.navbar-nav>li>ul::before{
+    border-bottom-color: #007500 !important;
+}
+
+html {
+    scroll-behavior: smooth;
 }

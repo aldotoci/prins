@@ -1,0 +1,24 @@
+.content-container{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.content-container > img{
+    height: 350px;
+}
+
+.content-container p{
+    font-size: 15px;
+}
+
+.disatvanteages > div{
+    width: 50%;
+}
+.color-background{
+    background: #e5e9ec;
+}
+.status-publish{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

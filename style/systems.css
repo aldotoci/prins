@@ -1,0 +1,89 @@
+.custom-header-button:hover {
+    opacity: 1;
+    /*color: #fff;*/
+    /*background-color: #FF8300;*/
+    border-color: #FD7F20;
+    color: #FD7F20;
+    background: rgb(174 169 169 / 33%);
+}
+
+.type-of-systems{
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    padding-bottom: 15px;
+    justify-content: center;
+}
+.type-of-systems .container{
+    height: 300px;
+    background-color: rgba(59, 131, 208, 0.6);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 40px;
+    flex-direction: column;
+    border-radius: 5px;
+    transition: 0.25s ease;
+}
+.type-of-systems .container:hover{
+    background-color: rgba(70,147,230,0.9);
+}
+.type-of-systems .container h2{
+    color: white;
+    transition: 0.25s ease;
+}
+.type-of-systems .container .field--label-hidden{
+    display: none;
+    /*transition: 0.25s ease;*/
+}
+.type-of-systems .container:hover + .field--label-hidden{
+    display: block !important;
+}
+.type-of-systems .wrapper{
+    width: 33.33333333%;
+    height: 300px;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: height 0.25s ease;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    min-width: 200px;
+    background-repeat: no-repeat;
+}
+.type-of-systems .vsi{
+    background-image:url(../images/VSI-sytem.jpg);
+}
+.type-of-systems .vsi-di{
+    background-image:url(../images/VSI-di-system.jpg);
+}
+.type-of-systems .dieselblend{
+     background-image:url(../images/Dieselblend-system.jpg);
+}
+
+.yt-frame-container {
+    display: flex;
+    justify-content: center;
+}
+
+.VSI-detail-container > div{
+    width: 84%;
+}
+.VSI-detail-container > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*list-style-image: url('../images/icons/check-list.png');*/
+    background-size: 2px;
+}
+
+.inner-wrap{
+    margin: 0.8125em auto !important;
+}
+.entry-header{
+    margin-top: 20px;
+}

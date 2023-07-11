@@ -13,8 +13,8 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <script>(function (html) {
-        html.className = html.className.replace(/\bno-js\b/, 'js')
-    })(document.documentElement);</script>
+            html.className = html.className.replace(/\bno-js\b/, 'js')
+        })(document.documentElement);</script>
     <title>PRINS</title>
     <meta name='robots' content='max-image-preview:large'/>
     <script>
@@ -62,7 +62,7 @@
         }(window, document, window._wpemojiSettings);
     </script>
 
-    <link rel="stylesheet" href="./style/all.css" />
+    <link rel="stylesheet" href="./style/all.css"/>
     <link rel='stylesheet' id='wp-block-library-css' href='./style/block-library.css' media='all'/>
     <link rel='stylesheet' id='classic-theme-styles-css' href='/style/classic-theme.css' media='all'/>
     <link rel='stylesheet' id='inspiro-google-fonts-css' href='/style/font.css' media='all'/>
@@ -71,10 +71,12 @@
     <script src='./js/jquery-migrate.min.js' id='jquery-migrate-js'></script>
 
     <link rel="stylesheet" href="./style/index.css"/>
-    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./style/systems.css"/>
+    <link rel="stylesheet" href="./style/fuels.css"/>
 </head>
 
-<body class="home page-template-default page page-id-12 wp-embed-responsive inspiro-front-page has-header-image inspiro--with-page-nav page-layout-full-width post-display-content-excerpt full-height-iframe-video colors-light">
+<body
+    class="home page-template-default page page-id-12 wp-embed-responsive inspiro-front-page has-header-image inspiro--with-page-nav page-layout-full-width post-display-content-excerpt full-height-iframe-video colors-light">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
     <defs>
@@ -216,13 +218,16 @@
             </div>
             <nav class="mobile-menu-wrapper" aria-label="Mobile Menu" role="navigation">
                 <ul id="menu-main-menu" class="nav navbar-nav">
-                    <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
+                    <li id="menu-item-21"
+                        class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21">
                         <a href="http://localhost/" aria-current="page">Home</a>
                     </li>
-                    <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
+                    <li id="menu-item-21"
+                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
                         <a href="http://localhost/" aria-current="page">Systems</a>
                     </li>
-                    <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
+                    <li id="menu-item-21"
+                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
                         <a href="http://localhost/" aria-current="page">Fuels</a>
                     </li>
                     <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24">
@@ -249,7 +254,7 @@
             <!--            </div>-->
             <div id="text-6" class="widget widget_text"><h3 class="title">About This Site</h3>
                 <div class="textwidget"><p>This may be a good place to introduce yourself and your site or include some
-                    credits.</p>
+                        credits.</p>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -261,7 +266,7 @@
                         </a>
                         <a target="_blank" href="https://www.facebook.com/prinsautogasalbania/?locale=sq_AL">
                             <img style="background: white; border-radius: 50%" width="40"
-                                src="./images/facebook_logo_1.png">
+                                 src="./images/facebook_logo_1.png">
                         </a>
                         <a target="_blank" href="https://goo.gl/maps/5dNpVL4FFKFY3sbU7?coh=178571&entry=tt">
                             <img width="40" src="./images/google-maps_logo.png">
@@ -300,15 +305,14 @@
                     <nav class="primary-menu-wrapper navbar-collapse collapse" aria-label="Top Horizontal Menu"
                          role="navigation">
                         <ul id="menu-main-menu-1" class="nav navbar-nav dropdown sf-menu">
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-21">
                                 <a href="./" aria-current="page">Home</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21">
-                                <a href="./systems.php  " aria-current="page">Systems</a>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item_item menu-item-home menu-item-21">
+                                <a href="./systems.php" aria-current="page">Systems</a>
                                 <ul id="dropdown-menu">
                                     <li><a href="#">VSI-3 DI</a></li>
                                     <li><a href="#">VSI-DI</a></li>
                                     <li><a href="#">VSI</a></li>
-                                    <li><a href="#">DIESEL BLEND</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21">
@@ -372,14 +376,19 @@
 
                 <div class="site-branding-text">
 
-
-                    <h1 class="site-title"><a href="" target="_blank">AUTO SERVICE GESTI</a></h1>
+                    <h1 class="site-title"><a href="" target="_blank">Systems</a></h1>
 
                 </div><!-- .site-branding-text -->
 
                 <div class="custom-header-button-wrapper">
-                    <a class="custom-header-button button" href="" target="_blank" rel="nofollow"
-                       style="display: none;">
+                    <a class="custom-header-button button" href="#VSI-3" rel="nofollow" style="">
+                        VSI-3 DI
+                    </a>
+                    <a class="custom-header-button button" href="#VSI-DI" rel="nofollow" style="">
+                        VSI-DI
+                    </a>
+                    <a class="custom-header-button button" href="#VSI" rel="nofollow" style="">
+                        VSI
                     </a>
                 </div><!-- .custom-header-button -->
 
@@ -397,7 +406,8 @@
                         class="screen-reader-text">Pause background video</span>
                     <svg class="svg-icon svg-icon-pause" aria-hidden="true" role="img" focusable="false"
                          xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 24 28">
-                        <path d="M24 3v22c0 0.547-0.453 1-1 1h-8c-0.547 0-1-0.453-1-1v-22c0-0.547 0.453-1 1-1h8c0.547 0 1 0.453 1 1zM10 3v22c0 0.547-0.453 1-1 1h-8c-0.547 0-1-0.453-1-1v-22c0-0.547 0.453-1 1-1h8c0.547 0 1 0.453 1 1z"></path>
+                        <path
+                            d="M24 3v22c0 0.547-0.453 1-1 1h-8c-0.547 0-1-0.453-1-1v-22c0-0.547 0.453-1 1-1h8c0.547 0 1 0.453 1 1zM10 3v22c0 0.547-0.453 1-1 1h-8c-0.547 0-1-0.453-1-1v-22c0-0.547 0.453-1 1-1h8c0.547 0 1 0.453 1 1z"></path>
                     </svg>
                 </button>
             </div>
@@ -420,7 +430,7 @@
 
                     <header class="entry-header">
 
-                        <div class="inner-wrap"><h1 class="entry-title">Driving On Gas</h1></div><!-- .inner-wrap -->
+                        <div class="inner-wrap"><h1 class="entry-title">Our Systems</h1></div><!-- .inner-wrap -->
                     </header><!-- .entry-header -->
 
 
@@ -428,259 +438,197 @@
 
                         <p class="has-text-align-center">
                             <meta charset="utf-8">
-                            The systems we develop and supply for these cleaner, more economical alternative fuels are
-                            suitable for both older and new (direct injection) engines and hybrids.&nbsp;Driving on gas
-                            (LPG, CNG or LNG) with one of our systems offers many advantages such as&nbsp;fuel cost
-                            savings and reducing exhaust emissions such as CO2, particles and NOx.
+                            We offer various solutions for converting vehicles to LPG, CNG or LNG. Thanks to our
+                            extensive product range, we can install one of our fuel systems in (almost) all cars, buses,
+                            trucks and pick-ups. We can even offer conversions for industrial and marine applications.
+
+                            After focusing on universal systems initially, we now concentrate on specific integration by
+                            car brand and model.
+
+                            The number of available LPG and CNG systems for cars with a DI (direct injection) fuel
+                            system is growing very fast. Thanks to our extensive delivery program, and our experience in
+                            knowing which system works best for a particular engine, we maintain a unique leadership
+                            position in the market. Find which system fits your car by using our
+                            <a href='https://www.prinsautogas.com/en/vehicle-database#wdt-find-system-field-make'
+                               target="_blank">Vehicle Database</a>.
                         </p>
 
                         <!--                            http://localhost/wp-content/uploads/2023/05/CNG.jpg-->
                         <!--                            http://localhost/wp-content/uploads/2023/05/LPG-1.jpg-->
                         <!--                            http://localhost/wp-content/uploads/2023/05/LNG.jpg-->
                         <!--                            -->
-                        <div class="type-of-g">
-                            <div onClick="window.location.replace('./fuels/LPG.php')" class="wrapper LPG">
-                                    <div class="container">
-                                        <h2>LPG</h2>
-                                        <div property="schema:text"
-                                            class="field--label-hidden">
-                                            LPG is a cleaner fuel compared to petrol and diesel. So using LPG as a vehicle
-                                            fuel helps to improve the air quality.
-                                        </div>
-                                    </div>
-                            </div>
-                            <div class="wrapper CNG">
+                        <div class="type-of-systems">
+                            <div onclick="document.getElementById('VSI-3').scrollIntoView()" class="wrapper vsi">
                                 <div class="container ">
-                                    <h2>CNG</h2>
+                                    <h2>VSI-3</h2>
                                     <div property="schema:text"
                                          class="field--label-hidden">
-                                        CNG is one of the cleanest fuels; when burned, it emits fewer harmful gases and
-                                        less fine particulate matter compared to petrol. CO2 emissions are reduced by up
-                                        to 20%.
+                                        The VSI system is the most advanced vapour injection system on the market. It
+                                        was originally developed by Prins and has now been completely redesigned to suit
+                                        advanced modern engines.
                                     </div>
                                 </div>
                             </div>
-<!--                            <div class="wrapper LNG">-->
-<!--                                <div class="container ">-->
-<!--                                    <h2>LNG</h2>-->
-<!--                                    <div property="schema:text"-->
-<!--                                         class="field&#45;&#45;label-hidden">-->
-<!--                                        LNG stands for ‘Liquefied Natural Gas’.&nbsp;LNG is used as a fuel for road-->
-<!--                                        transport and in marine and industrial applications.-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
+                            <div onclick="document.getElementById('VSI-DI').scrollIntoView()" class="wrapper vsi-di">
+                                <div class="container ">
+                                    <h2>VSI-DI</h2>
+                                    <div property="schema:text"
+                                         class="field--label-hidden">
+                                        The number of LPG and CNG systems for cars equipped with a direct injection
+                                        engine is growing rapidly. Thanks to our extensive range of products, we are a
+                                        pioneer in the market.
+                                    </div>
+                                </div>
+                            </div>
+                            <div onclick="document.getElementById('VSI').scrollIntoView()" class="wrapper dieselblend">
+                                <div class="container ">
+                                    <h2>VSI</h2>
+                                    <div property="schema:text"
+                                         class="field--label-hidden">
+                                        The Prins Dieselblend Dual Fuel system is an innovative fuel system. In diesel
+                                        engines, this system makes it possible to substitute a part of diesel by cleaner
+                                        and cheaper (bio) LPG, CNG, LNG or Hydrogen H2.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <div style="height:55px" aria-hidden="true" class="wp-block-spacer"></div>
-
-                        <div class="wp-block-group alignfull has-background is-layout-flow"
-                             style="background-color:#e5e9ec">
-                            <div class="wp-block-group__inner-container">
-                                <div class="wp-block-columns is-layout-flex wp-container-7">
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
-                                        <h2 class="wp-block-heading">About us</h2>
-                                        <p>This is some dummy copy. You’re not really supposed to read this dummy copy,
-                                            it is just a placeholder for people who need some type to visualize what the
-                                            actual copy might look like if it were real content.</p>
-                                        <div class="wp-block-buttons is-horizontal is-content-justification-left is-layout-flex wp-container-4">
-                                            <div class="wp-block-button is-style-outline"><a
-                                                    class="wp-block-button__link wp-element-button" href="./about.php">About
-                                                Us</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="wp-block-column is-layout-flow">
-                                        <div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
-                                        <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                       src="./images/StockSnap_JKMGVEJMPU.jpg"
-                                                                                       alt="" class="wp-image-26"/>
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wp-block-group alignfull is-layout-flow">
-                            <div class="wp-block-group__inner-container">
-                                <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-12">
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
-                                        <div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
-                                        <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                       src="./images/findYourModel.jpg"
-                                                                                       alt="" class="wp-image-27"/>
-                                        </figure>
-                                    </div>
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
-                                        <h2 class="wp-block-heading">We'll find the right fuel system for you</h2>
-                                        <p>We'll help you find the right fuel system for your vehicle, provide a quote
-                                            to install and get you on the road to saving money on fuel in no time.</p>
-                                        <div class="wp-block-buttons is-layout-flex">
-                                            <div class="wp-block-button is-style-outline"><a
-                                                    class="wp-block-button__link wp-element-button"
-                                                    target="_blank"
-                                                    href="https://www.prinsautogas.com/en/vehicle-database#wdt-find-system-field-make">Check your
-                                                vehicle</a></div>
-                                        </div>
-                                        <p>
-                                            <small>
-                                                Please contact us if your vehicle is not listed or if you are interested
-                                                in an LNG system.
-                                            </small>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="wp-block-group alignfull has-background is-layout-flow"
-                             style="background-color:#e5e9ec">
-                            <div class="wp-block-group__inner-container">
-                                <div class="wp-block-columns is-layout-flex wp-container-7">
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
-                                        <h2 class="wp-block-heading">Where can you find us?</h2>
-
-
-                                        <p>This is some dummy copy. You’re not really supposed to read this dummy copy,
-                                            it is just a placeholder for people who need some type to visualize what the
-                                            actual copy might look like if it were real content.</p>
-
-
-                                        <div class="wp-block-buttons is-horizontal is-content-justification-left is-layout-flex wp-container-4">
-                                            <div class="wp-block-button is-style-outline"><a
-                                                    class="wp-block-button__link wp-element-button" target="_blank"
-                                                    href="https://goo.gl/maps/5dNpVL4FFKFY3sbU7?coh=178571&entry=tt">Open
-                                                Map</a></div>
-                                        </div>
-
-
-                                        <p></p>
-                                    </div>
-
-
-                                    <div class="wp-block-column is-layout-flow">
-                                        <div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-                                        <figure class="wp-block-image size-large">
-                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11169.861576331317!2d19.673536431012437!3d40.959776076652034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135005e88179f7a7%3A0x2ebd649bd84a7034!2sPrins%20AutogasSystems%20Albania!5e0!3m2!1sen!2s!4v1685117606298!5m2!1sen!2s"
-                                                    width="600" height="450" style="border:0;" allowfullscreen=""
-                                                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="wp-block-group alignfull is-layout-flow">
-                            <div class="wp-block-group__inner-container">
-                                <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-12">
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
-                                        <div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-                                        <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                       src="./images/StockSnap_M6D1GS9PSL.jpg"
-                                                                                       alt="" class="wp-image-27"/>
-                                        </figure>
-                                    </div>
-
-
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
-                                        <h2 class="wp-block-heading">Our Services</h2>
-
-
-                                        <p>This is some dummy copy. You’re not really supposed to read this dummy copy,
-                                            it is just a placeholder for people who need some type to visualize what the
-                                            actual copy might look like if it were real content.</p>
-
-
-                                        <div class="wp-block-buttons is-layout-flex">
-                                            <div class="wp-block-button is-style-outline"><a
-                                                    class="wp-block-button__link wp-element-button"
-                                                    href="#">Services</a></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="wp-block-group alignfull has-black-background-color has-background is-layout-flow">
-                            <div class="wp-block-group__inner-container">
-                                <h2 class="wp-block-heading has-text-align-center has-white-color has-text-color">
-                                    <strong>Gallery</strong></h2>
-
-
-                                <figure class="wp-block-gallery aligncenter has-nested-images columns-default is-cropped wp-block-gallery-14 is-layout-flex">
-                                    <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                   src="./images/StockSnap_P9QYJ8AAL8.jpg"
-                                                                                   alt="" class="wp-image-28"/></figure>
-
-
-                                    <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                   src="./images/StockSnap_M6D1GS9PSL.jpg"
-                                                                                   alt="" class="wp-image-27"/></figure>
-
-
-                                    <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                   src="./images/Royalty-Free-Forest-Road-Aerial-Stock-Video-Footage-1.webm"
-                                                                                   alt="" class="wp-image-26"/></figure>
-
-
-                                    <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                   src="./images/StockSnap_CXVCF2NNWJ.jpg"
-                                                                                   alt="" class="wp-image-25"/></figure>
-
-
-                                    <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                   src="./images/StockSnap_89BQZ89TLH.jpg"
-                                                                                   alt="" class="wp-image-24"/></figure>
-
-
-                                    <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                   src="./images/StockSnap_PGXCCTCLB5.jpg"
-                                                                                   alt="" class="wp-image-29"/></figure>
-                                </figure>
-                            </div>
-                        </div>
-
-
-                        <div class="wp-block-cover alignfull has-parallax is-position-center-center"
-                             style="min-height:375px"><span aria-hidden="true"
-                                                            class="wp-block-cover__background has-black-background-color has-background-dim-40 has-background-dim"></span>
-                            <div role="img" class="wp-block-cover__image-background wp-image-24 has-parallax"
-                                 style="background-position:50% 50%;background-image:url(./images/StockSnap_89BQZ89TLH.jpg)"></div>
-                            <div class="wp-block-cover__inner-container">
-                                <p class="has-text-align-center has-text-color has-huge-font-size"
-                                   style="color:#fffffa;line-height:1.1"><strong>Unleash the power of Natural Gas, an
-                                    eco-friendly and cost-effective fuel, for your car's efficient performance and
-                                    reduced carbon footprint.</strong></p>
-
-
-                                <p class="has-text-align-center"></p>
-
-
-                                <div style="height:39px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-                                <div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-container-17">
-                                    <div class="wp-block-button is-style-outline"><a
-                                            class="wp-block-button__link has-white-color has-text-color wp-element-button"
-                                            href="#contact">Contact us</a></div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-18 is-layout-flex"></figure>
                     </div><!-- .entry-content -->
                 </article><!-- #post-12 -->
 
             </main><!-- #main -->
 
+
         </div><!-- #content -->
+
+        <article id="VSI-3" class="post-12 page type-page status-publish has-post-thumbnail color-background hentry">
+            <header class="entry-header">
+                <div class="inner-wrap"><h1 class="entry-title">VSI-3 DI: The revolutionary LPG system</h1></div>
+                <!-- .inner-wrap -->
+            </header><!-- .entry-header -->
+            <div class="entry-content">
+                <h3 style="text-align: center;">Introducing the revolutionary VSI-3 DI LPG system</h3>
+                <div class="content-container yt-frame-container">
+                    <iframe width="784" height="441" src="https://www.youtube.com/embed/gZteCYeJ7EM"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                </div>
+            </div><!-- .entry-content -->
+        </article><!-- #post-12 -->
+
+        <div class="wp-block-group alignfull is-layout-flow">
+            <div class="wp-block-group__inner-container">
+                <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-12">
+                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
+                        <div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
+                        <figure class="wp-block-image size-large"><img decoding="async"
+                                                                       src="./images/prins_award_1.jpg"
+                                                                       alt="" class="wp-image-27"/>
+                        </figure>
+                    </div>
+                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
+                        <h2 class="wp-block-heading">Introducing the revolutionary VSI-3 DI LPG system</h2>
+                        <h4>This LPG system is unique and futureproof, offering a universal solution for a wide variety of
+                            vehicles of the latest automotive technology, complying with global emission standards.</h4>
+                        <p>TThe Prins VSI-3 DI LPG system offers a universal solution for a wide variety of vehicles of the
+                            latest automotive technology, complying with the latest global emission standards like Euro 6D
+                            WLTP and certifications like R115/EPA. The system is of high quality, extremely efficient
+                            (petrol use <5%), higher performing, providing a smooth driving experience, just like a normal
+                            petrol car. By driving on LPG (Autogas) one saves fuel costs, sometimes hundreds of Euro per
+                            year, and saves the environment by lowering CO2 (21%) and particles emissions (up to 95%). The
+                            system is available now, worldwide, at the official Prins installers..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <article id="VSI-DI" class="post-12 page type-page status-publish has-post-thumbnail color-background hentry">
+            <header class="entry-header">
+                <div class="inner-wrap"><h1 class="entry-title">VSI-DI system</h1></div><!-- .inner-wrap -->
+            </header><!-- .entry-header -->
+            <div class="entry-content">
+                <h3 style="text-align: center;">LPG (autogas) conversion | Volkswagen Golf 8 1.5 TSI</h3>
+                <div class="content-container yt-frame-container">
+                    <iframe width="784" height="441" src="https://www.youtube.com/embed/9Bj7M5c_yj8"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                </div>
+            </div><!-- .entry-content -->
+        </article><!-- #post-12 -->
+
+        <article class="post-12 page type-page status-publish has-post-thumbnail hentry">
+            <div class="entry-content">
+                <div class="content-container VSI-detail-container">
+                    <div>
+                        <p>VSI stands for "Vapour Sequential Injection". The VSI-DI system is a derivative of the VSI
+                            system and specially developed for cars with a Direct Injection fuel system (DI
+                            engine). </p>
+                        <p><b>Compared to competitors in the market, Prins offers reliable fuel systems for a wide range
+                                of vehicles. These VSI-DI systems consume very little petrol (< 5%), and are suitable
+                                for both the latest car types and cars that have already been on the road for several
+                                years. </b></p>
+                        <p>The VSI-DI system is based on the principle of converting liquefied petroleum gas (LPG) or
+                            natural gas (CNG) to vapour form before sequentially injecting it into a DI engine.</p>
+                    </div>
+                    <ul>
+                        <li>Most advanced software</li>
+                        <li>Specially for Direct Injection engines</li>
+                        <li>High quality components</li>
+                        <li>Maximum performance, minimum emissions</li>
+                        <li>Very low petrol consumption (< 5%)</li>
+                        <p>
+                            No noticeable difference compared to running your vehicle on petrol!
+                        </p>
+                    </ul>
+                </div>
+            </div><!-- .entry-content -->
+        </article><!-- #post-12 -->
+        <article id="VSI" class="post-12 page type-page status-publish has-post-thumbnail color-background hentry">
+            <header class="entry-header">
+                <div class="inner-wrap"><h1 class="entry-title">VSI system</h1></div>
+                <!-- .inner-wrap -->
+            </header><!-- .entry-header -->
+            <div class="entry-content">
+                <h3 style="text-align: center;">The following are the main components that are added to your car when an LPG conversion is installed.</h3>
+                <div class="content-container yt-frame-container">
+                    <figure class="wp-block-image size-large"><img decoding="async"
+                                                                   src="./images/systeem-VSI-2.0.jpg"
+                                                                   alt="" class="wp-image-27"/>
+                    </figure>
+                </div>
+            </div><!-- .entry-content -->
+        </article><!-- #post-12 -->
+
+        <article class="post-12 page type-page status-publish has-post-thumbnail hentry">
+            <div class="entry-content">
+                <div class="content-container VSI-detail-container">
+                    <div>
+                        <p>VSI stands for “<b>Vapour Sequential Injection</b>”. The VSI system is the most advanced vapour injection system on the market. It was originally developed by Prins and has now been completely redesigned to suit advanced modern engines. All components used in the VSI system satisfy the most demanding regulations and certification standards. </p>
+                        <p>
+                            The VSI system is based on the principle of converting liquefied petroleum gas
+                            (LPG) or natural gas
+                            (CNG) to vapour form before sequentially injecting it into the engine. We also offer solutions for cars with a
+                            direct injection fuel system!
+                        </p>
+                        <p>The VSI-DI system is based on the principle of converting liquefied petroleum gas (<a href="https://www.prinsautogas.com/en/lpg">LPG</a>) or
+                            natural gas (<a href="https://www.prinsautogas.com/en/cng">CNG</a>) to vapour form before sequentially injecting it into a DI engine.We also offer solutions for cars with a <a href="https://www.prinsautogas.com/en/vsi-20-di-system">direct injection fuel system!</a></p>
+                    </div>
+                    <ul>
+                        <li>High-quality components</li>
+                        <li>Unique diagnostic software</li>
+                        <li>Optimal performance</li>
+                        <li>Reduced emissions</li>
+                        <p>No noticeable difference compared to running your vehicle on petrol!</p>
+                    </ul>
+                </div>
+            </div><!-- .entry-content -->
+        </article><!-- #post-12 -->
+
         <footer id="content" class="site-footer" role="contentinfo">
-            <div class="inner-wrap">
+            <div id="about-section" class="inner-wrap">
                 <aside class="footer-widgets widgets widget-columns-3" role="complementary" aria-label="Footer">
                     <div class="widget-column footer-widget-1">
                         <section id="text-8" class="widget widget_text"><h2 class="title">Find Us</h2>
@@ -708,9 +656,9 @@
                         </section>
                     </div>
                     <div class="widget-column footer-widget-2">
-                        <section id="about-section" class="widget widget_text"><h2 class="title">About This Site</h2>
+                        <section id="text-9" class="widget widget_text"><h2 class="title">About This Site</h2>
                             <div class="textwidget"><p>This may be a good place to introduce yourself and your site or
-                                include some credits.</p>
+                                    include some credits.</p>
                             </div>
                         </section>
                     </div>
@@ -727,7 +675,21 @@
 
 <script id='wp-i18n-js-after'> wp.i18n.setLocaleData({'text direction\u0004ltr': ['ltr']});</script>
 <script id='wp-custom-header-js-extra'>
-    var _wpCustomHeaderSettings = {"mimeType":"video\/mp4","posterUrl":"./images/Royalty%20Free%20Forest%20Road%20Aerial%20Stock%20Video%20Footage%201.webm","videoUrl":"./images/Royalty%20Free%20Forest%20Road%20Aerial%20Stock%20Video%20Footage%201.webm","width":"2000","height":"1200","minWidth":"100","minHeight":"100","l10n":{"pause":"<span class=\"screen-reader-text\">Pause background video<\/span><svg class=\"svg-icon svg-icon-pause\" aria-hidden=\"true\" role=\"img\" focusable=\"false\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"28\" viewBox=\"0 0 24 28\"><path d=\"M24 3v22c0 0.547-0.453 1-1 1h-8c-0.547 0-1-0.453-1-1v-22c0-0.547 0.453-1 1-1h8c0.547 0 1 0.453 1 1zM10 3v22c0 0.547-0.453 1-1 1h-8c-0.547 0-1-0.453-1-1v-22c0-0.547 0.453-1 1-1h8c0.547 0 1 0.453 1 1z\"><\/path><\/svg>","play":"<span class=\"screen-reader-text\">Play background video<\/span><svg class=\"svg-icon svg-icon-play\" aria-hidden=\"true\" role=\"img\" focusable=\"false\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"22\" height=\"28\" viewBox=\"0 0 22 28\"><path d=\"M21.625 14.484l-20.75 11.531c-0.484 0.266-0.875 0.031-0.875-0.516v-23c0-0.547 0.391-0.781 0.875-0.516l20.75 11.531c0.484 0.266 0.484 0.703 0 0.969z\"><\/path><\/svg>","pauseSpeak":"Video is paused.","playSpeak":"Video is playing."}};
+    var _wpCustomHeaderSettings = {
+        "mimeType": "video\/mp4",
+        "posterUrl": "./images/Royalty%20Free%20Forest%20Road%20Aerial%20Stock%20Video%20Footage%201.webm",
+        "videoUrl": "./images/Royalty%20Free%20Forest%20Road%20Aerial%20Stock%20Video%20Footage%201.webm",
+        "width": "2000",
+        "height": "1200",
+        "minWidth": "100",
+        "minHeight": "100",
+        "l10n": {
+            "pause": "<span class=\"screen-reader-text\">Pause background video<\/span><svg class=\"svg-icon svg-icon-pause\" aria-hidden=\"true\" role=\"img\" focusable=\"false\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"28\" viewBox=\"0 0 24 28\"><path d=\"M24 3v22c0 0.547-0.453 1-1 1h-8c-0.547 0-1-0.453-1-1v-22c0-0.547 0.453-1 1-1h8c0.547 0 1 0.453 1 1zM10 3v22c0 0.547-0.453 1-1 1h-8c-0.547 0-1-0.453-1-1v-22c0-0.547 0.453-1 1-1h8c0.547 0 1 0.453 1 1z\"><\/path><\/svg>",
+            "play": "<span class=\"screen-reader-text\">Play background video<\/span><svg class=\"svg-icon svg-icon-play\" aria-hidden=\"true\" role=\"img\" focusable=\"false\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"22\" height=\"28\" viewBox=\"0 0 22 28\"><path d=\"M21.625 14.484l-20.75 11.531c-0.484 0.266-0.875 0.031-0.875-0.516v-23c0-0.547 0.391-0.781 0.875-0.516l20.75 11.531c0.484 0.266 0.484 0.703 0 0.969z\"><\/path><\/svg>",
+            "pauseSpeak": "Video is paused.",
+            "playSpeak": "Video is playing."
+        }
+    };
 </script>
 <script src='./js/wp-custom-header.js' id='wp-custom-header-js'></script>
 
