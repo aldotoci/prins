@@ -217,16 +217,14 @@
             <nav class="mobile-menu-wrapper" aria-label="Mobile Menu" role="navigation">
                 <ul id="menu-main-menu" class="nav navbar-nav">
                     <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
-                        <a href="http://localhost/" aria-current="page">Home</a>
+                        <a href="./index.php" aria-current="page">Home</a>
                     </li>
                     <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
-                        <a href="http://localhost/" aria-current="page">Systems</a>
+                        <a href="./systems.php" aria-current="page">Systems</a>
                     </li>
                     <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
-                        <a href="http://localhost/" aria-current="page">Fuels</a>
+                        <a href="./fuels.php" aria-current="page">Fuels</a>
                     </li>
-                    <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24">
-                        <a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <!--            <div id="search-2" class="widget widget_search"><h3 class="title">Search</h3>-->
@@ -485,7 +483,7 @@
                                             actual copy might look like if it were real content.</p>
                                         <div class="wp-block-buttons is-horizontal is-content-justification-left is-layout-flex wp-container-4">
                                             <div class="wp-block-button is-style-outline"><a
-                                                    class="wp-block-button__link wp-element-button" href="./about.php">About
+                                                    class="wp-block-button__link wp-element-button" href="#about-section">About
                                                 Us</a></div>
                                         </div>
                                     </div>
@@ -499,6 +497,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="wp-block-group alignfull is-layout-flow">
                             <div class="wp-block-group__inner-container">
                                 <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-12">
@@ -666,7 +665,7 @@
                                 <div class="wp-block-buttons is-horizontal is-content-justification-center is-layout-flex wp-container-17">
                                     <div class="wp-block-button is-style-outline"><a
                                             class="wp-block-button__link has-white-color has-text-color wp-element-button"
-                                            href="#contact">Contact us</a></div>
+                                            href="#about-section">Contact us</a></div>
                                 </div>
                             </div>
                         </div>

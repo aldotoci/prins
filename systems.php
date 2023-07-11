@@ -218,20 +218,15 @@
             </div>
             <nav class="mobile-menu-wrapper" aria-label="Mobile Menu" role="navigation">
                 <ul id="menu-main-menu" class="nav navbar-nav">
-                    <li id="menu-item-21"
-                        class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21">
-                        <a href="http://localhost/" aria-current="page">Home</a>
+                    <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
+                        <a href="./index.php" aria-current="page">Home</a>
                     </li>
-                    <li id="menu-item-21"
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
-                        <a href="http://localhost/" aria-current="page">Systems</a>
+                    <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
+                        <a href="./systems.php" aria-current="page">Systems</a>
                     </li>
-                    <li id="menu-item-21"
-                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
-                        <a href="http://localhost/" aria-current="page">Fuels</a>
+                    <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
+                        <a href="./fuels.php" aria-current="page">Fuels</a>
                     </li>
-                    <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24">
-                        <a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <!--            <div id="search-2" class="widget widget_search"><h3 class="title">Search</h3>-->
@@ -252,12 +247,15 @@
             <!--                </form>-->
             <!--                <div class="clear"></div>-->
             <!--            </div>-->
+
+
             <div id="text-6" class="widget widget_text"><h3 class="title">About This Site</h3>
                 <div class="textwidget"><p>This may be a good place to introduce yourself and your site or include some
                         credits.</p>
                 </div>
                 <div class="clear"></div>
             </div>
+
             <div id="contact">
                 <div id="text-7" class="widget widget_text"><h3 class="title">Find Us</h3>
                     <div class="social-media-logos">

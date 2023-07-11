@@ -22,3 +22,13 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .content-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .disatvanteages > div{
+        width: 100%;
+    }
+}

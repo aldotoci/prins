@@ -219,19 +219,15 @@
             </div>
             <nav class="mobile-menu-wrapper" aria-label="Mobile Menu" role="navigation">
                 <ul id="menu-main-menu" class="nav navbar-nav">
-                    <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21">
-                        <a href="http://localhost/" aria-current="page">Home</a>
-                    </li>
-                    <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-21">
-                        <a href="http://localhost/" aria-current="page">Systems</a>
+                    <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
+                        <a href="./index.php" aria-current="page">Home</a>
                     </li>
                     <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
-                        <a href="http://localhost/" aria-current="page">Fuels</a>
+                        <a href="./systems.php" aria-current="page">Systems</a>
                     </li>
-                    <li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23">
-                        <a href="./about.php">Blog</a></li>
-                    <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24">
-                        <a href="#contact">Contact</a></li>
+                    <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
+                        <a href="./fuels.php" aria-current="page">Fuels</a>
+                    </li>
                 </ul>
             </nav>
             <!--            <div id="search-2" class="widget widget_search"><h3 class="title">Search</h3>-->
@@ -418,23 +414,27 @@
     <div class="site-content-contain">
         <div class="site-content">
             <main id="main" class="site-main" role="main">
-                <article id="LPG" class="post-12 page type-page status-publish has-post-thumbnail hentry">
-                    <header class="entry-header">
-                        <div class="inner-wrap"><h1 class="entry-title">LPG</h1></div><!-- .inner-wrap -->
-                    </header><!-- .entry-header -->
-                    <div class="entry-content">
-                        <h3>What is LPG?</h3>
-                        <div class="content-container">
-                            <p>
-                                LPG (Liquefied Petroleum Gas), which is sometimes also called autogas in the car industry, comprises hydrocarbon compounds like petrol and diesel. The main components of LPG are propane and butane. Large quantities of petroleum gases are released when extracting oil and natural gas, and refining crude oil. Compressing these petroleum gases convert them to a liquid state, and creates LPG.
+                <div id="LPG" class="wp-block-group alignfull has-background is-layout-flow"
+                     style="background-color:#e5e9ec">
+                    <div class="wp-block-group__inner-container">
+                        <div class="wp-block-columns is-layout-flex wp-container-7">
+                            <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
+                                <h2 class="wp-block-heading">What is LPG?</h2>
+                                <p>LPG (Liquefied Petroleum Gas), which is sometimes also called autogas in the car industry, comprises hydrocarbon compounds like petrol and diesel. The main components of LPG are propane and butane. Large quantities of petroleum gases are released when extracting oil and natural gas, and refining crude oil. Compressing these petroleum gases convert them to a liquid state, and creates LPG.
 
-                                LPG is a cleaner fuel compared to petrol and diesel. So using LPG as a vehicle fuel helps to improve the air quality.
-                            </p>
-                            <img src="./images/LPG_image1.jpg" />
+                                    LPG is a cleaner fuel compared to petrol and diesel. So using LPG as a vehicle fuel helps to improve the air quality.</p>
+                            </div>
+                            <div class="wp-block-column is-layout-flow">
+                                <div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
+                                <figure class="wp-block-image size-large"><img decoding="async"
+                                                                               src="./images/LPG_image1.jpg"
+                                                                               alt="" class="wp-image-26"/>
+                                </figure>
+                            </div>
                         </div>
-                    </div><!-- .entry-content -->
-                </article><!-- #post-12 -->
-                <article id="post-12" class="post-12 page type-page status-publish has-post-thumbnail color-background hentry">
+                    </div>
+                </div>
+                <article id="post-12" class="post-12 page type-page status-publish has-post-thumbnail hentry">
                     <header class="entry-header">
                         <div class="inner-wrap"><h1 class="entry-title">Driving on LPG!</h1></div><!-- .inner-wrap -->
                     </header><!-- .entry-header -->
@@ -462,14 +462,12 @@
                         </div>
                     </div><!-- .entry-content -->
                 </article><!-- #post-12 -->
-                <article id="CNG" class="post-12 page type-page status-publish has-post-thumbnail hentry">
-                    <header class="entry-header">
-                        <div class="inner-wrap"><h1 class="entry-title">NPG</h1></div><!-- .inner-wrap -->
-                    </header><!-- .entry-header -->
-                    <div class="entry-content">
-                        <h3>Driving on CNG</h3>
-                        <div class="content-container">
-                            <div class="info-container">
+                <div id="CNG" class="wp-block-group alignfull has-background is-layout-flow"
+                     style="background-color:#e5e9ec">
+                    <div class="wp-block-group__inner-container">
+                        <div class="wp-block-columns is-layout-flex wp-container-7">
+                            <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
+                                <h2 class="wp-block-heading">What is CNG?</h2>
                                 <p>
                                     CNG is one of the cleanest fuels; when burned, it emits fewer harmful gases and less fine particulate matter compared to petrol. CO2 emissions are reduced by up to 20%. In the case of a diesel vehicle, this reduction can be as much as 75%. In addition, when running on CNG, your vehicle emits up to 30% less NOx in comparison to diesel.
                                 </p>
@@ -480,11 +478,17 @@
                                     A further advantage of CNG is the price difference compared to petrol and diesel; CNG is a lot cheaper. So you save on your fuel costs. These savings vary per vehicle and driver.
                                 </p>
                             </div>
-                            <img src="./images/CNG_image1.jpg" />
+                            <div class="wp-block-column is-layout-flow">
+                                <div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
+                                <figure class="wp-block-image size-large"><img decoding="async"
+                                                                               src="./images/CNG_image1.jpg"
+                                                                               alt="" class="wp-image-26"/>
+                                </figure>
+                            </div>
                         </div>
-                    </div><!-- .entry-content -->
-                </article><!-- #post-12 -->
-                <article id="post-12" class="post-12 page type-page status-publish has-post-thumbnail color-background hentry">
+                    </div>
+                </div>
+                <article id="post-12" class="post-12 page type-page status-publish has-post-thumbnail hentry">
                     <header class="entry-header">
                         <div class="inner-wrap"><h1 class="entry-title">Driving on NPG!</h1></div><!-- .inner-wrap -->
                     </header><!-- .entry-header -->
