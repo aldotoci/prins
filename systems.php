@@ -411,7 +411,7 @@
             </div>
         </div>
 
-        <div id="scroll-to-content" title="Scroll down to content">
+        <div onclick="document.getElementById('main').scrollIntoView()" id="scroll-to-content" title="Scroll down to content">
             <span class="screen-reader-text">Scroll down to content</span>
         </div>
     </div><!-- .custom-header -->
