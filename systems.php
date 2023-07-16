@@ -17,50 +17,6 @@
         })(document.documentElement);</script>
     <title>PRINS</title>
     <meta name='robots' content='max-image-preview:large'/>
-    <script>
-        window._wpemojiSettings = {
-            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
-            "ext": ".png",
-            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
-            "svgExt": ".svg",
-            "source": {"concatemoji": "http:\/\/localhost\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"}
-        };
-        /*! This file is auto-generated */
-        !function (e, a, t) {
-            var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d");
-
-            function s(e, t) {
-                p.clearRect(0, 0, i.width, i.height), p.fillText(e, 0, 0);
-                e = i.toDataURL();
-                return p.clearRect(0, 0, i.width, i.height), p.fillText(t, 0, 0), e === i.toDataURL()
-            }
-
-            function c(e) {
-                var t = a.createElement("script");
-                t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
-            }
-
-            for (o = Array("flag", "emoji"), t.supports = {
-                everything: !0,
-                everythingExceptFlag: !0
-            }, r = 0; r < o.length; r++) t.supports[o[r]] = function (e) {
-                if (p && p.fillText) switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
-                    case"flag":
-                        return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !s("\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
-                    case"emoji":
-                        return !s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff", "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")
-                }
-                return !1
-            }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
-            t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () {
-                t.DOMReady = !0
-            }, t.supports.everything || (n = function () {
-                t.readyCallback()
-            }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () {
-                "complete" === a.readyState && t.readyCallback()
-            })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e.wpemoji)))
-        }(window, document, window._wpemojiSettings);
-    </script>
 
     <link rel="stylesheet" href="./style/all.css"/>
     <link rel='stylesheet' id='wp-block-library-css' href='./style/block-library.css' media='all'/>
@@ -324,6 +280,11 @@
                                     href="#about-section">About</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a
                                     href="#about-section">Contact</a></li>
+                            <ul id="dropdown-menu">
+                                <li><button class="languageButton">Shqip</button></li>
+                                <li><button class="languageButton">English</button></li>
+                            </ul>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21"></li>
                         </ul>
                     </nav>
                 </div>
@@ -418,11 +379,7 @@
 
     <div class="site-content-contain">
         <div class="site-content">
-
-
             <main id="main" class="site-main" role="main">
-
-
                 <article id="post-12" class="post-12 page type-page status-publish has-post-thumbnail hentry">
 
 
@@ -500,47 +457,40 @@
 
         </div><!-- #content -->
 
-        <article id="VSI-3" class="post-12 page type-page status-publish has-post-thumbnail color-background hentry">
+        <article class="post-12 page type-page status-publish has-post-thumbnail color-background hentry">
             <header class="entry-header">
-                <div class="inner-wrap"><h1 class="entry-title">VSI-3 DI: The revolutionary LPG system</h1></div>
+                <div class="inner-wrap"><h1 class="entry-title">VSI system</h1></div>
                 <!-- .inner-wrap -->
             </header><!-- .entry-header -->
             <div class="entry-content">
-                <h3 style="text-align: center;">Introducing the revolutionary VSI-3 DI LPG system</h3>
-                <div class="content-container yt-frame-container">
-                    <iframe width="784" height="441" src="https://www.youtube.com/embed/gZteCYeJ7EM"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
+                <div class="content-container VSI-detail-container">
+                    <div>
+                        <p class="VSI--1">VSI stands for “<b class="VSI--1">Vapour Sequential Injection</b>”. The VSI system is the most advanced vapour injection system on the market. It was originally developed by Prins and has now been completely redesigned to suit advanced modern engines. All components used in the VSI system satisfy the most demanding regulations and certification standards. </p>
+                        <p class="VSI--2">The VSI-DI system is based on the principle of converting liquefied petroleum gas (<a href="https://www.prinsautogas.com/en/lpg">LPG</a>) or
+                            natural gas (<a href="https://www.prinsautogas.com/en/cng">CNG</a>) to vapour form before sequentially injecting it into a DI engine.We also offer solutions for cars with a <a href="https://www.prinsautogas.com/en/vsi-20-di-system">direct injection fuel system!</a></p>
+                    </div>
+                    <ul>
+                        <li class="VSI--1">High-quality components</li>
+                        <li class="VSI--1">Unique diagnostic software</li>
+                        <li class="VSI--1">Optimal performance</li>
+                        <li class="VSI--1">Reduced emissions</li>
+                        <p> class="VSI--1"No noticeable difference compared to running your vehicle on petrol!</p>
+                    </ul>
                 </div>
             </div><!-- .entry-content -->
         </article><!-- #post-12 -->
 
-        <div class="wp-block-group alignfull is-layout-flow">
-            <div class="wp-block-group__inner-container">
-                <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-12">
-                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
-                        <div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
-                        <figure class="wp-block-image size-large"><img decoding="async"
-                                                                       src="./images/prins_award_1.jpg"
-                                                                       alt="" class="wp-image-27"/>
-                        </figure>
-                    </div>
-                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
-                        <h2 class="wp-block-heading">Introducing the revolutionary VSI-3 DI LPG system</h2>
-                        <h4>This LPG system is unique and futureproof, offering a universal solution for a wide variety of
-                            vehicles of the latest automotive technology, complying with global emission standards.</h4>
-                        <p>TThe Prins VSI-3 DI LPG system offers a universal solution for a wide variety of vehicles of the
-                            latest automotive technology, complying with the latest global emission standards like Euro 6D
-                            WLTP and certifications like R115/EPA. The system is of high quality, extremely efficient
-                            (petrol use <5%), higher performing, providing a smooth driving experience, just like a normal
-                            petrol car. By driving on LPG (Autogas) one saves fuel costs, sometimes hundreds of Euro per
-                            year, and saves the environment by lowering CO2 (21%) and particles emissions (up to 95%). The
-                            system is available now, worldwide, at the official Prins installers..</p>
-                    </div>
+        <article id="VSI" class="post-12 page type-page status-publish has-post-thumbnail hentry">
+            <div class="entry-content">
+                <h3 class="VSI--1" style="text-align: center;">The following are the main components that are added to your car when an LPG conversion is installed.</h3>
+                <div class="content-container yt-frame-container">
+                    <figure class="wp-block-image size-large"><img decoding="async"
+                                                                   src="./images/systeem-VSI-2.0.jpg"
+                                                                   alt="" class="wp-image-27"/>
+                    </figure>
                 </div>
-            </div>
-        </div>
+            </div><!-- .entry-content -->
+        </article><!-- #post-12 -->
 
         <article id="VSI-DI" class="post-12 page type-page status-publish has-post-thumbnail color-background hentry">
             <header class="entry-header">
@@ -584,46 +534,48 @@
                 </div>
             </div><!-- .entry-content -->
         </article><!-- #post-12 -->
-        <article id="VSI" class="post-12 page type-page status-publish has-post-thumbnail color-background hentry">
+
+        <article id="VSI-3" class="post-12 page type-page status-publish has-post-thumbnail color-background hentry">
             <header class="entry-header">
-                <div class="inner-wrap"><h1 class="entry-title">VSI system</h1></div>
+                <div class="inner-wrap"><h1 class="entry-title">VSI-3 DI: The revolutionary LPG system</h1></div>
                 <!-- .inner-wrap -->
             </header><!-- .entry-header -->
             <div class="entry-content">
-                <h3 style="text-align: center;">The following are the main components that are added to your car when an LPG conversion is installed.</h3>
+                <h3 style="text-align: center;">Introducing the revolutionary VSI-3 DI LPG system</h3>
                 <div class="content-container yt-frame-container">
-                    <figure class="wp-block-image size-large"><img decoding="async"
-                                                                   src="./images/systeem-VSI-2.0.jpg"
-                                                                   alt="" class="wp-image-27"/>
-                    </figure>
+                    <iframe width="784" height="441" src="https://www.youtube.com/embed/gZteCYeJ7EM"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
                 </div>
             </div><!-- .entry-content -->
         </article><!-- #post-12 -->
 
-        <article class="post-12 page type-page status-publish has-post-thumbnail hentry">
-            <div class="entry-content">
-                <div class="content-container VSI-detail-container">
-                    <div>
-                        <p>VSI stands for “<b>Vapour Sequential Injection</b>”. The VSI system is the most advanced vapour injection system on the market. It was originally developed by Prins and has now been completely redesigned to suit advanced modern engines. All components used in the VSI system satisfy the most demanding regulations and certification standards. </p>
-                        <p>
-                            The VSI system is based on the principle of converting liquefied petroleum gas
-                            (LPG) or natural gas
-                            (CNG) to vapour form before sequentially injecting it into the engine. We also offer solutions for cars with a
-                            direct injection fuel system!
-                        </p>
-                        <p>The VSI-DI system is based on the principle of converting liquefied petroleum gas (<a href="https://www.prinsautogas.com/en/lpg">LPG</a>) or
-                            natural gas (<a href="https://www.prinsautogas.com/en/cng">CNG</a>) to vapour form before sequentially injecting it into a DI engine.We also offer solutions for cars with a <a href="https://www.prinsautogas.com/en/vsi-20-di-system">direct injection fuel system!</a></p>
+        <div class="wp-block-group alignfull is-layout-flow">
+            <div class="wp-block-group__inner-container">
+                <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-12">
+                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
+                        <div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
+                        <figure class="wp-block-image size-large"><img decoding="async"
+                                                                       src="./images/prins_award_1.jpg"
+                                                                       alt="" class="wp-image-27"/>
+                        </figure>
                     </div>
-                    <ul>
-                        <li>High-quality components</li>
-                        <li>Unique diagnostic software</li>
-                        <li>Optimal performance</li>
-                        <li>Reduced emissions</li>
-                        <p>No noticeable difference compared to running your vehicle on petrol!</p>
-                    </ul>
+                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
+                        <h2 class="wp-block-heading">Introducing the revolutionary VSI-3 DI LPG system</h2>
+                        <h4>This LPG system is unique and futureproof, offering a universal solution for a wide variety of
+                            vehicles of the latest automotive technology, complying with global emission standards.</h4>
+                        <p>TThe Prins VSI-3 DI LPG system offers a universal solution for a wide variety of vehicles of the
+                            latest automotive technology, complying with the latest global emission standards like Euro 6D
+                            WLTP and certifications like R115/EPA. The system is of high quality, extremely efficient
+                            (petrol use <5%), higher performing, providing a smooth driving experience, just like a normal
+                            petrol car. By driving on LPG (Autogas) one saves fuel costs, sometimes hundreds of Euro per
+                            year, and saves the environment by lowering CO2 (21%) and particles emissions (up to 95%). The
+                            system is available now, worldwide, at the official Prins installers..</p>
+                    </div>
                 </div>
-            </div><!-- .entry-content -->
-        </article><!-- #post-12 -->
+            </div>
+        </div>
 
         <footer id="content" class="site-footer" role="contentinfo">
             <div id="about-section" class="inner-wrap">
