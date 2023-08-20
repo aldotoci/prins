@@ -546,76 +546,28 @@
                                     </div>
                                 </div>
                             </div>
-
-
-                            <div class="wp-block-group alignfull is-layout-flow">
-                                <div class="wp-block-group__inner-container">
-                                    <div class="wp-block-columns are-vertically-aligned-center is-layout-flex wp-container-12">
-                                        <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
-                                            <div style="height:48px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-                                            <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                           src="./images/StockSnap_M6D1GS9PSL.jpg"
-                                                                                           alt="" class="wp-image-27"/>
-                                            </figure>
-                                        </div>
-
-
-                                        <div class="wp-block-column is-vertically-aligned-center is-layout-flow">
-                                            <h2 class="wp-block-heading">Our Services</h2>
-
-
-                                            <p>This is some dummy copy. You’re not really supposed to read this dummy copy,
-                                                it is just a placeholder for people who need some type to visualize what the
-                                                actual copy might look like if it were real content.</p>
-
-
-                                            <div class="wp-block-buttons is-layout-flex">
-                                                <div class="wp-block-button is-style-outline"><a
-                                                        class="wp-block-button__link wp-element-button"
-                                                        href="#">Services</a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
                             <div class="wp-block-group alignfull has-black-background-color has-background is-layout-flow">
                                 <div class="wp-block-group__inner-container">
                                     <h2 class="wp-block-heading has-text-align-center has-white-color has-text-color">
                                         <strong>Gallery</strong></h2>
-
-
                                     <figure class="wp-block-gallery aligncenter has-nested-images columns-default is-cropped wp-block-gallery-14 is-layout-flex">
                                         <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                       src="./images/StockSnap_P9QYJ8AAL8.jpg"
+                                                                                       src="./images/car_images/PFHN9845.JPG"
                                                                                        alt="" class="wp-image-28"/></figure>
-
-
                                         <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                       src="./images/StockSnap_M6D1GS9PSL.jpg"
+                                                                                       src="./images/car_images/SWDR0873.JPG"
                                                                                        alt="" class="wp-image-27"/></figure>
-
-
                                         <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                       src="./images/Royalty-Free-Forest-Road-Aerial-Stock-Video-Footage-1.webm"
+                                                                                       src="./images/car_images/TQTJ3131.JPG"
                                                                                        alt="" class="wp-image-26"/></figure>
-
-
                                         <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                       src="./images/StockSnap_CXVCF2NNWJ.jpg"
+                                                                                       src="./images/car_images/TRRM3397.JPG"
                                                                                        alt="" class="wp-image-25"/></figure>
-
-
                                         <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                       src="./images/StockSnap_89BQZ89TLH.jpg"
+                                                                                       src="./images/car_images/TSFN1329.JPG"
                                                                                        alt="" class="wp-image-24"/></figure>
-
-
                                         <figure class="wp-block-image size-large"><img decoding="async"
-                                                                                       src="./images/StockSnap_PGXCCTCLB5.jpg"
+                                                                                       src="./images/car_images/UAPA7062.JPG"
                                                                                        alt="" class="wp-image-29"/></figure>
                                     </figure>
                                 </div>
