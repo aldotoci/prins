@@ -280,11 +280,11 @@
                                     href="#about-section">About</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a
                                     href="#about-section">Contact</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21">
-                                <a href="./fuels.php" aria-current="page">Gjuha</a>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21" id="languageText">
+                                <a href="./fuels.php"  aria-current="page">Language</a>
                                 <ul id="dropdown-menu">
-                                    <li><button><a class="languageButton" href="?lang=albanian">Shqip</a></button></li>
-                                    <li><button><a class="languageButton" href="?lang=english">English</a></button></li>
+                                    <li><a class="languageButton" href="?lang=albanian">Shqip</a></li>
+                                    <li><a class="languageButton" href="?lang=english">English</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21"></li>
