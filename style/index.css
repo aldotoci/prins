@@ -66,16 +66,18 @@
 .social-media-logos a img:hover{
     width: 50px;
 }
-
+.navbar-nav>li>ul::before{
+    border-bottom-color: #007500 !important;
+}
+html {
+    scroll-behavior: smooth;
+}
 #dropdown-menu{
     margin-top: 5px;
     width: 150px;
     border-top-color: #007500;
+    display: block;
 }
-.navbar-nav>li>ul::before{
-    border-bottom-color: #007500 !important;
-}
-
-html {
-    scroll-behavior: smooth;
+.languageButton{
+    background: transparent;
 }
