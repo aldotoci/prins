@@ -287,8 +287,8 @@
                                 <li class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21" id="languageText">
                                     <a href="./fuels.php"  aria-current="page">Language</a>
                                     <ul id="dropdown-menu">
-                                        <li><button><a class="languageButton" href="?lang=albanian">Shqip</a></button></li>
-                                        <li><button><a class="languageButton" href="?lang=english">English</a></button></li>
+                                        <li><button class="buttonDecoration"><a class="languageButton" href="?lang=albanian">Shqip</a></button></li>
+                                        <li><button class = "buttonDecoration"><a class="languageButton" href="?lang=english">English</a></button></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21"></li>
