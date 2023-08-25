@@ -92,3 +92,23 @@ html {
   border: 0px;
   background: none;
 }
+
+/* Hover of Contact Us button */
+
+.wp-element-button:hover {
+  color: #fd7f20;
+  border-color: #fd7f20;
+}
+
+/* Language button of Mobile view */
+
+#language-button-mobile {
+  display: none !important;
+}
+
+/* Show the button in mobile view */
+@media (max-width: 768px) {
+  #language-button-mobile {
+    display: block !important;
+  }
+}

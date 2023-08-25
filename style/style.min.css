@@ -2466,7 +2466,13 @@ body.has-archive-description:not(.has-header-image)
   font-family: Montserrat, sans-serif;
   text-decoration: none !important;
   transition: background-color 0.3s ease;
+  color: white;
 }
+.wp-block-button a:hover {
+  background-color: rgba(224, 224, 224, 0.701) !important;
+  color: #fd7f20;
+}
+
 .wp-block-button:not(.is-style-outline) a:hover {
   background-color: #0bb4aa;
   color: #fff !important;
