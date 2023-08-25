@@ -408,7 +408,7 @@
 
                             <p class="has-text-align-center">
                                 <meta charset="utf-8">
-                                Sistemet që zhvillojmë dhe furnizojmë për këto karburante alternativë më të pastër dhe më ekonomike janë të përshtatshme për motorët më të vjetër dhe më të rinj (me injeksion direkt) si dhe për hibridët. Drejtimi me gaz (GPL, CNG ose LNG) me njërën nga sistemët tanë ofron shumë avantazhe si për ruajtjen e kostos së karburantit ashtu edhe për reduktimin e emetimeve të gazrave të nxjerra si CO2, pjesëcica dhe NOx.
+                                Sistemet që zhvillojmë dhe furnizojmë për këto karburante alternativë më të pastër dhe më ekonomike janë të përshtatshme për motorët më të vjetër dhe më të rinj (me injeksion direkt) si dhe për hibridët. Drejtimi me gaz (GPL, CNG ose LNG) me njërën nga sistemët tanë ofron shumë avantazhe si për ruajtjen e kostos së karburantit ashtu edhe për reduktimin e emetimeve të gazrave të nxjerra si CO2, grimcat dhe NOx.
                             </p>
 
                             <!--                            http://localhost/wp-content/uploads/2023/05/CNG.jpg-->
