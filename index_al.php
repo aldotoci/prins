@@ -25,13 +25,6 @@
     <script src='./js/jquery.min.js' id='jquery-core-js'></script>
     <script src='./js/jquery-migrate.min.js' id='jquery-migrate-js'></script>
 
-    <script src="https://www.google.com/js/api.js"></script>
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({pageLanguage: 'es'}, 'google_translate_element');
-        }
-    </script>
-    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
     <link rel="stylesheet" href="./style/index.css"/>
     <link rel="stylesheet" href="./style/systems.css"/>
