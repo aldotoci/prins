@@ -279,7 +279,7 @@
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a
                                         href="#about-section">Contact</a></li>
                                 <li class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21" id="languageText">
-                                    <a href="./fuels.php"  aria-current="page">Language</a>
+                                    <a aria-current="page">Language</a>
                                     <ul id="dropdown-menu">
                                         <li><a class="languageButton" href="?lang=albanian">Shqip</a></li>
                                         <li><a class="languageButton" href="?lang=english">English</a></li>
@@ -291,7 +291,7 @@
                         <div id="language-button-mobile">
                         <ul id="menu-main-menu-1" class="nav navbar-nav dropdown sf-menu">
                         <li class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21" id="languageText">
-                                    <a href="./fuels.php"  aria-current="page">Language</a>
+                                    <a aria-current="page">Language</a>
                                     <ul id="dropdown-menu">
                                         <li><a class="languageButton" href="?lang=albanian">Shqip</a></li>
                                         <li><a class="languageButton" href="?lang=english">English</a></li>
