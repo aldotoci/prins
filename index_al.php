@@ -287,6 +287,17 @@
                                 <li class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21"></li>
                             </ul>
                         </nav>
+                        <div id="language-button-mobile">
+                        <ul id="menu-main-menu-1" class="nav navbar-nav dropdown sf-menu">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom_item menu-item-home menu-item-21" id="languageText">
+                                    <a aria-current="page">Language</a>
+                                    <ul id="dropdown-menu">
+                                        <li><a class="languageButton" href="?lang=albanian">Shqip</a></li>
+                                        <li><a class="languageButton" href="?lang=english">English</a></li>
+                                    </ul>
+                                </li>
+                        </ul>
+                        </div>
                     </div>
 
                     <div class="header-widgets-wrapper">

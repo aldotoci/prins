@@ -110,5 +110,7 @@ html {
 @media (max-width: 768px) {
   #language-button-mobile {
     display: block !important;
+    margin-top: 10px;
+    margin-right: 5px;
   }
 }
