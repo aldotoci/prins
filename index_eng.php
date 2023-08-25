@@ -461,7 +461,7 @@
                                                 actual copy might look like if it were real content.</p>
                                             <div class="wp-block-buttons is-horizontal is-content-justification-left is-layout-flex wp-container-4">
                                                 <div class="wp-block-button is-style-outline"><a
-                                                        class="wp-block-button__link wp-element-button" href="#about-section">About
+                                                        class="wp-block-button__link wp-element-button" id="link-hover" href="#about-section">About
                                                         Us</a></div>
                                             </div>
                                         </div>

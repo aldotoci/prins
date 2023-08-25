@@ -67,7 +67,7 @@
   width: 50px;
 }
 .navbar-nav > li > ul::before {
-  border-bottom-color: #FD7F20 !important;
+  border-bottom-color: #fd7f20 !important;
 }
 html {
   scroll-behavior: smooth;
@@ -75,17 +75,17 @@ html {
 #dropdown-menu {
   margin-top: 5px;
   width: 150px;
-  border-top-color: #FD7F20;
+  border-top-color: #fd7f20;
   background-color: rgb(128, 128, 128, 0.9);
   text-align: center;
 }
 
-#dropdown-menu a{
-    color: white;
+#dropdown-menu a {
+  color: white;
 }
 
-#dropdown-menu a:hover{
-  color: #FD7F20;
+#dropdown-menu a:hover {
+  color: #fd7f20;
 }
 
 .buttonDecoration {
